@@ -1,0 +1,19 @@
+first have to make custom hook   for currency 
+
+josn convert  then   
+
+
+amount 
+onAmounnt change 
+currency
+oncurrencychange
+currency options 
+select currency
+
+
+
+amount  
+form 
+to 
+converted amount 
+on currency
