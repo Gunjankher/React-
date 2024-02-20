@@ -1,0 +1,4 @@
+1:- CREATE STORE
+
+import configure store from redux toolkit and export it in a variable and this configure strore will take the object 
+
