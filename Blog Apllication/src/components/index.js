@@ -10,6 +10,8 @@ import Button from '../components/Button'
 import PostCard from '../components/Postcard'
 import AuthLayout from '../components/AuthLayout'
 import Input from "./Input"
+import Select from '../components/Select'
+import PostForm from "./post-form/PostForm"
 
 
 export {
@@ -24,7 +26,8 @@ Login,
 Button,
 PostCard,
 AuthLayout,
-Input
+Input,
+Select
 
 
 

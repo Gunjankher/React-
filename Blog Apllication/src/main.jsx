@@ -7,6 +7,10 @@ import { RouterProvider,createBrowserRouter } from 'react-router-dom'
 import AddPost from "./pages/AddPost";
 import Signup from './pages/Signup'
 import EditPost from "./pages/EditPost";
+import Home from './pages/Home.jsx'
+import { AuthLayout } from './components/index.js'
+import Login from './pages/Login.jsx'
+import store from './Store/store.js'
 
 import Post from "./pages/Post";
 
