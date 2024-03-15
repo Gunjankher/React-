@@ -50,6 +50,7 @@ try {
 } catch (error) {
     console.log("Appwrite error :: current user error ", error);
 }
+return null
 }
 
 async logout (){
