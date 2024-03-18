@@ -5,7 +5,7 @@ import './index.css'
 import { Provider } from 'react-redux'
 import { RouterProvider,createBrowserRouter } from 'react-router-dom'
 import AddPost from "./pages/AddPost";
-import Signup from './pages/Signup'
+import { Signup } from './components/index.js'
 import EditPost from "./pages/EditPost";
 import Home from './pages/Home.jsx'
 import { AuthLayout } from './components/index.js'
