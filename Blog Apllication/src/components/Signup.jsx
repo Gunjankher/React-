@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import { useEffect } from 'react'
 import { useNavigate,Link } from 'react-router-dom'
-import { UseDispatch, useDispatch } from 'react-redux'
-import {Button ,Input, Logo} from './index'
-import authService from '../Appwrite/auth'
+import { useDispatch } from 'react-redux'
+import {Button ,Input, Logo} from './index.js'
+import authService from '../appwrite/auth'
 import login from '../Store/authslice'
 import useform from 'react-hook-form'
 
@@ -27,6 +26,7 @@ if(session) {
 
     if(userData){
         dispatch(login(userData))
+        navigate("/")
     }
 }}
 catch (error){

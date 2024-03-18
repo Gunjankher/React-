@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button({
+ export default function Button({
     children,
     type = "button",
     bgcolor = "bg-blue-logo",
@@ -16,4 +16,3 @@ function Button({
   )
 }
 
-export default Button
