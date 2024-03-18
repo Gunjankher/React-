@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import {Button ,Input, Logo} from './index.js'
 import authService from '../appwrite/auth'
 import login from '../Store/authslice'
-import useform from 'react-hook-form'
+import { useForm } from 'react-hook-form'
 
 
 
@@ -13,7 +13,7 @@ function Signup() {
 const navigate = useNavigate()
 const dispatch = useDispatch()
 const [error,SetError] = useState([])
-const {register,handleSubmit} = useform()
+const {register,handleSubmit} = useForm()
 
 
 const create = async (data)=>{
