@@ -12,16 +12,16 @@ function Signup() {
 
 const navigate = useNavigate()
 const dispatch = useDispatch()
-const [error,SetError] = useState([])
+const [error,setError] = useState("")
 const {register,handleSubmit} = useForm()
 
 
 const create = async (data)=>{
-SetError('')
+setError('')
 try{
- const session = await authService.createAccount(data)
+ const userData = await authService.createAccount(data)
 
-if(session) {
+if(userData) {
     const userData = await authService.getcurrentUser()
 
     if(userData){
@@ -30,7 +30,7 @@ if(session) {
     }
 }}
 catch (error){
-SetError(error.message)
+setError(error.message)
 }
 }
 
